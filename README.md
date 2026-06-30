@@ -43,7 +43,7 @@ EC2 instance
 GitHub Actions self-hosted runner
 Getting Started
 1. Clone the repository
-git clone https://github.com/entbappy/BappyGPT.git
+ https://github.com/VINNU7890/shreygpt
 2. Navigate to the project directory
 cd BappyGPT
 3. Create a virtual environment
