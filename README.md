@@ -45,13 +45,13 @@ Getting Started
 1. Clone the repository
  https://github.com/VINNU7890/shreygpt
 2. Navigate to the project directory
-cd BappyGPT
+cd  ShreyGPT
 3. Create a virtual environment
 Using conda:
 
-conda create -n bappygpt python=3.11 -y
+conda create -n  shreygpt python=3.11 -y
 4. Activate the virtual environment
-conda activate bappygpt
+conda activate shreygpt
 5. Install dependencies
 pip install -r requirements.txt
 Environment Variables
@@ -75,7 +75,7 @@ Start the FastAPI app:
 python app.py
 The app will be available at:
 
-http://127.0.0.1:8080
+http://127.0.0.1:8081
 Project Structure
 BappyGPT/
 │
@@ -99,7 +99,7 @@ Docker Deployment
 docker build -t bappygpt .
 2. Run the Docker container
 docker run -d \
-  --name bappygpt \
+  --name shreygpt \
   --restart always \
   -p 8081:8081 \
   --env-file .env \
